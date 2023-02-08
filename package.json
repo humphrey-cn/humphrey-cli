@@ -1,0 +1,20 @@
+{
+  "name": "humphrey-cli",
+  "version": "0.0.3",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "hh": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^10.0.0",
+    "ejs": "^3.1.8",
+    "inquirer": "^8.2.0"
+  }
+}
