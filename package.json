@@ -1,15 +1,16 @@
 {
   "name": "humphrey-cli",
-  "version": "0.0.5",
-  "description": "",
+  "version": "0.0.7",
+  "description": "一款便捷搭建含有基础项目配置框架的脚手架工具",
   "main": "index.js",
   "bin": {
-    "hh": "cli.js"
+    "hh": "cli.js",
+    "scisint": "cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["vue", "vue2", "vue3", "cli", "node", "nodejs"],
   "author": "",
   "license": "ISC",
   "dependencies": {
