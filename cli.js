@@ -48,8 +48,8 @@ const vue3Templates = [
 ]
 
 const vue2Templates = [
-    '.vscode/extensions.json',
-    '.vscode/settings.json',
+    // '.vscode/extensions.json',
+    // '.vscode/settings.json',
     'public/index.html',
     'public/login.png',
     'src/api/demo.js',
