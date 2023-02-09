@@ -1,6 +1,6 @@
 {
   "name": "humphrey-cli",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "一款便捷搭建含有基础项目配置框架的脚手架工具",
   "main": "index.js",
   "bin": {

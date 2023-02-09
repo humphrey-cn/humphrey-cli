@@ -82,7 +82,7 @@ const vue2Templates = [
     '.env',
     '.env.development',
     '.env.production',
-    '.gitignore',
+    // '.gitignore',
     'babel.config.js',
     'jsconfig.json',
     'package.json',
