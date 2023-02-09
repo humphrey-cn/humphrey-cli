@@ -1,0 +1,48 @@
+/* 设置项目基础样式配置--统一字体等 */
+html,
+body {
+  font-family: PingFangSC-Medium, PingFang SC;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  color: @text-color;
+  font-size: @text-size;
+}
+
+/* 单行文本溢出省略 */
+.text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* 两行文本溢出省略 */
+.text-overflow-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  -moz-line-clamp: 2;
+  word-break: break-all;
+}
+
+// 按钮基础样式
+.btn {
+  background-color: @button-background-color;
+  color: @button-color;
+  border: @button-border-color;
+  border-radius: @button-border-radius;
+  width: 100px;
+  height: 42px;
+  cursor: pointer;
+  @flex-center();
+  &.small {
+    width: 100px;
+    height: 60px;
+  }
+}
+
+.df-center {
+  @flex-center();
+}
